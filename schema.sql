@@ -27,8 +27,8 @@ create table likes (
 
 create table comments (
   id serial primary key,
-  comment varchar(50) not null,
-  created_at varchar(50) not null,
+  comment text not null,
+  created_at timestamp default now(),
   user_id integer references users (id),
   post_id integer references posts (id)
 );
