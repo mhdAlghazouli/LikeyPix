@@ -1,1 +1,1 @@
-# LikeyPix::
+# LikeyPix
